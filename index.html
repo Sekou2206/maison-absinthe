@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maison Absinthe · Maison de couture, Paris</title>
+<meta name="description" content="Maison Absinthe, maison de couture à Paris. Pièces uniques, faites main, made in France. Made to be seen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Fraunces:ital,opsz,wght,SOFT,WONK@1,9..144,300..500,100,1&family=Albert+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="fly" viewBox="0 0 120 120">
+    <g class="wing wing--t"><ellipse cx="37" cy="44" rx="30" ry="9" transform="rotate(-14 60 46)"/><ellipse cx="83" cy="44" rx="30" ry="9" transform="rotate(14 60 46)"/></g>
+    <g class="wing wing--b"><ellipse cx="40" cy="56" rx="25" ry="7.5" transform="rotate(10 60 56)"/><ellipse cx="80" cy="56" rx="25" ry="7.5" transform="rotate(-10 60 56)"/></g>
+    <circle cx="60" cy="30" r="5.5" class="fly__body"/>
+    <path d="M60 36 L60 104" class="fly__tail"/>
+  </symbol>
+</svg>
+
+<div class="fly" aria-hidden="true"><svg viewBox="0 0 120 120"><use href="#fly"/></svg></div>
+
+<div class="veil" aria-hidden="true">
+  <img src="images/logo-or.png" alt="" class="veil__logo">
+  <p class="veil__h"><span class="h-n">0</span> heures</p>
+</div>
+
+<header class="nav">
+  <a href="#top" class="nav__brand">Maison Absinthe</a>
+  <nav class="nav__links">
+    <a href="#heures">Les heures</a>
+    <a href="#matiere">La matière</a>
+    <a href="#creations">Les créations</a>
+    <a href="#libellule">La libellule</a>
+  </nav>
+  <a href="#porte" class="nav__cta">Entrer</a>
+</header>
+
+<main id="top">
+
+  <section class="hero" data-tone="nuit">
+    <video class="hero__vid" src="media/bulles.mp4" poster="media/bulles.jpg" autoplay muted loop playsinline></video>
+    <div class="hero__shade"></div>
+    <div class="hero__in">
+      <img src="images/logo-or.png" alt="Libellule, emblème de Maison Absinthe" class="hero__logo">
+      <h1 class="hero__title"><span>Maison</span><span>Absinthe</span></h1>
+      <p class="hero__motto">Made to be seen</p>
+    </div>
+    <p class="hero__l">Maison de couture</p>
+    <p class="hero__r">Paris · Made in France</p>
+  </section>
+
+  <section class="poison" data-tone="nuit">
+    <div class="arch arch--big"><video src="media/robe-verte.mp4" poster="media/robe-verte.jpg" muted loop playsinline data-lazy></video></div>
+    <div class="poison__txt">
+      <p class="eyebrow">Le premier rêve</p>
+      <blockquote class="poison__q" data-vapor>Chaque rêve peut être beau, mais attention, il cache parfois un <em>poison</em> qui nous attire vers l’abîme.</blockquote>
+      <p class="poison__sig">Mary Grace</p>
+    </div>
+    <div class="arch arch--small"><video src="media/danse.mp4" poster="media/danse.jpg" muted loop playsinline data-lazy></video></div>
+  </section>
+
+  <section class="hours" id="heures" data-tone="nuit">
+    <div class="hours__side">
+      <p class="eyebrow">Les heures</p>
+      <p class="hours__count"><span class="hc">0</span><small>heures</small></p>
+      <p class="hours__line">Creating couture pieces takes time.</p>
+      <div class="hours__bar"><span></span></div>
+    </div>
+    <ol class="hours__steps">
+      <li data-h="35"><div class="arch"><video src="media/atelier.mp4" poster="media/atelier.jpg" muted loop playsinline data-lazy></video></div><div><span class="hours__n">35 h</span><h3>Le patron</h3><p>Tracer, couper, assembler. La pièce commence à plat, sur la table de coupe.</p></div></li>
+      <li data-h="47"><div class="arch"><video src="media/satin.mp4" poster="media/satin.jpg" muted loop playsinline data-lazy></video></div><div><span class="hours__n">47 h</span><h3>Le satin</h3><p>Le drapé prend sa forme sur le corps. On ajuste, on épingle, on recommence.</p></div></li>
+      <li data-h="91"><div class="arch"><video src="media/perles.mp4" poster="media/perles.jpg" muted loop playsinline data-lazy></video></div><div><span class="hours__n">91 h</span><h3>Les perles</h3><p>Chaque rang est posé à la main, perle après perle, jusqu’au bustier.</p></div></li>
+      <li data-h="99"><div class="arch"><img src="images/robe-perles.jpg" alt="Bustier blanc paré de rangs de perles" loading="lazy"></div><div><span class="hours__n">99 h</span><h3>La pièce</h3><p>Il ne reste plus qu’à la porter. Faite pour être vue.</p></div></li>
+    </ol>
+  </section>
+
+  <section class="matiere" id="matiere" data-tone="lagon">
+    <video class="matiere__vid" src="media/plumes.mp4" poster="media/plumes.jpg" muted loop playsinline data-lazy></video>
+    <div class="matiere__in">
+      <p class="eyebrow">La matière</p>
+      <h2 class="matiere__t">La recherche des matières est une étape <em>importante</em> du processus de création.</h2>
+    </div>
+    <div class="matiere__tiles">
+      <figure class="arch"><video src="media/matieres.mp4" poster="media/matieres.jpg" muted loop playsinline data-lazy></video></figure>
+      <figure class="arch"><img src="images/ornement.jpg" alt="Étoffe brodée d’ornements" loading="lazy"></figure>
+      <figure class="arch"><img src="images/broderie.jpg" alt="Broderie noire sur satin blanc" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <section class="creations" id="creations" data-tone="opale">
+    <header class="sec">
+      <p class="eyebrow">Les créations</p>
+      <h2 class="sec__t">Chaque pièce porte <em>un prénom.</em></h2>
+    </header>
+    <div class="names">
+      <article class="name" data-img="media/ornella.jpg">
+        <h3>Ornella</h3>
+        <p>Dans les coulisses de Maison Absinthe, Ornella prend vie.</p>
+        <div class="name__media arch"><video src="media/ornella.mp4" poster="media/ornella.jpg" muted loop playsinline data-lazy></video></div>
+      </article>
+      <article class="name">
+        <h3>Valérie</h3>
+        <p>Plumes turquoise, mouvement et lumière.</p>
+        <div class="name__media arch"><img src="media/plumes.jpg" alt="Plumes turquoise de la pièce Valérie" loading="lazy"></div>
+      </article>
+      <article class="name">
+        <h3>Mary Grace</h3>
+        <p>Un rêve vert, et le poison qui attire vers l’abîme.</p>
+        <div class="name__media arch"><img src="media/bulles.jpg" alt="Perles vertes en suspension, Mary Grace" loading="lazy"></div>
+      </article>
+      <article class="name">
+        <h3>Le signe</h3>
+        <p>Ceci n’est qu’un signe. L’histoire commence bientôt.</p>
+        <div class="name__media arch"><img src="images/gant-vert.jpg" alt="Gant pailleté vert sous une lune verte" loading="lazy"></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="libellule" id="libellule" data-tone="opale">
+    <div class="lib__media">
+      <div class="arch arch--wide"><video src="media/dessin.mp4" poster="media/dessin.jpg" muted loop playsinline data-lazy></video></div>
+      <img src="images/logo-blanc.png" alt="Logo Maison Absinthe, libellule et nom" class="lib__logo">
+    </div>
+    <div class="lib__txt">
+      <p class="eyebrow">La libellule</p>
+      <h2 class="lib__t">Une ligne, une forme, <em>une couleur.</em></h2>
+      <p>Chez Maison Absinthe, chaque création commence par une idée. Jusqu’à ce que notre libellule signature et le nom Maison Absinthe prennent vie ensemble.</p>
+      <p class="lib__hand">On efface, puis on recommence.</p>
+    </div>
+  </section>
+
+  <section class="porte" id="porte" data-tone="nuit">
+    <video class="porte__vid" src="media/fumee.mp4" poster="media/fumee.jpg" muted loop playsinline data-lazy></video>
+    <div class="porte__in">
+      <p class="eyebrow">L’atelier</p>
+      <h2 class="porte__t">Entrez dans les coulisses.<br><em>Vous êtes aux portes d’un rêve.</em></h2>
+      <div class="porte__cta">
+        <a class="key" href="https://ig.me/m/lamaison.absinthe" target="_blank" rel="noopener"><span>Demander une pièce</span></a>
+        <a class="key key--line" href="https://www.instagram.com/lamaison.absinthe/" target="_blank" rel="noopener"><span>Instagram</span></a>
+      </div>
+      <p class="porte__loc">Paris, France · Pièces uniques sur rendez vous</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot" data-tone="nuit">
+  <svg class="foot__fly" viewBox="0 0 120 120" aria-hidden="true"><use href="#fly"/></svg>
+  <p class="foot__name">Maison Absinthe</p>
+  <div class="foot__row">
+    <span>Maison de couture · Paris</span>
+    <a href="https://www.instagram.com/lamaison.absinthe/" target="_blank" rel="noopener">@lamaison.absinthe</a>
+    <span>© <span class="year">2026</span> · Made to be seen</span>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
